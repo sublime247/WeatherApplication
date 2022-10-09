@@ -98,7 +98,7 @@ class _WeatherPageState extends State<WeatherPage> {
                                   style: GoogleFonts.poppins(
                                       color: const Color(0xFF09151E),
                                       fontWeight: FontWeight.w500,
-                                      fontSize: 20)),
+                                      fontSize: 25)),
                               const SizedBox(
                                 width: 20,
                               ),
@@ -179,9 +179,9 @@ class _WeatherPageState extends State<WeatherPage> {
                           children: [
                             Column(
                               children: [
-                                Text('Description:', style:  GoogleFonts.poppins(
+                                Text('Description', style:  GoogleFonts.poppins(
                                       color: const Color(0xFF09151E),
-                                      fontWeight: FontWeight.w400,
+                                      fontWeight: FontWeight.w500,
                                       fontSize: 16)),
                                 Text('${weather!.description}',style:  GoogleFonts.poppins(
                                       color:const Color(0xFF09151E),
@@ -191,9 +191,9 @@ class _WeatherPageState extends State<WeatherPage> {
                             ),
                             Column(
                                 children: [
-                               Text('Pressure:', style:  GoogleFonts.poppins(
+                               Text('Pressure', style:  GoogleFonts.poppins(
                                       color:const Color(0xFF09151E),
-                                      fontWeight: FontWeight.w400,
+                                      fontWeight: FontWeight.w500,
                                       fontSize: 16)),
                                 Text('${weather!.pressure} atm',style:  GoogleFonts.poppins(
                                       color:const Color(0xFF09151E),
@@ -209,9 +209,9 @@ class _WeatherPageState extends State<WeatherPage> {
                           children: [
                             Column(
                               children: [
-                                Text('Wind Degree:',style:  GoogleFonts.poppins(
+                                Text('Wind Degree',style:  GoogleFonts.poppins(
                                     color: const Color(0xFF09151E),
-                                    fontWeight: FontWeight.w400,
+                                    fontWeight: FontWeight.w500,
                                     fontSize: 16)),
                                 Wrap(
                                   direction: Axis.horizontal,
@@ -229,9 +229,9 @@ class _WeatherPageState extends State<WeatherPage> {
                             ),
                             Column(
                                 children: [
-                               Text('WindSpeed:',style:  GoogleFonts.poppins(
+                               Text('WindSpeed',style:  GoogleFonts.poppins(
                                       color:const Color(0xFF09151E),
-                                      fontWeight: FontWeight.w400,
+                                      fontWeight: FontWeight.w500,
                                       fontSize: 16)),
                                 Text('${weather!.windSpeed} m/s',style:  GoogleFonts.poppins(
                                       color:const Color(0xFF09151E),

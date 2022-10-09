@@ -26,7 +26,9 @@ class _SplashScreenState extends State<SplashScreen> {
       backgroundColor: const Color(0xFF0C1823),
       body: Align(
         alignment: Alignment.center,
-        child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+           children: [
           SvgPicture.asset('assets/logo.svg'),
           const SizedBox(
             height: 25,

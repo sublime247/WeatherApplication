@@ -6,7 +6,7 @@ import 'package:weatherapplication/screens/welcome_screen.dart';
 void main() {
   runApp(  MaterialApp(
       title: 'Flutter Demo',
-     initialRoute: '/home',
+     initialRoute: '/splash',
       routes: {
         '/splash':(context) =>const SplashScreen(),
         '/welcome':(context) => const WelcomeScreen(),
